@@ -43,3 +43,10 @@ html, body {
     text-underline-offset: 5px;
     color: #fff;
 }
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin-top: 20px;
+}
