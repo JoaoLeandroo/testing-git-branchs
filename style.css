@@ -34,6 +34,9 @@ html, body {
     gap: 10px;
 }
 
+.header ul li {
+    font-size: 1.2rem;
+}
 
 .header ul li:hover {
     text-decoration: underline;
