@@ -39,11 +39,11 @@ faço um committ da minha branch atual para a main
         git add .
         git commit -m "novas informações
 
-acesso a main e dou push
-
 
 para voltar ao estado inicial de uma branch(ultimo commit)
+
         git stash 
+
 o comando git stash limpa todas as alterações feitas naquela branch, e retorna ao estado inicial(ultimo commit)
 
 
@@ -54,6 +54,7 @@ Para reverter uma stash, em caso de arrependimento
 passar o id da stash no apply no exemplo estou passando a stash no id 0
 
         git stash apply 0
+
 
 
 Para verificar o que tem nas stash list
