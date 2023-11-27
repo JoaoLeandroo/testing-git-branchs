@@ -61,3 +61,12 @@ Para verificar o que tem nas stash list
 o numero representa o id da stash
 
         git stash show -p 2
+
+Para buscar uma Branch utilizar o comando git fetch
+
+        git fetch -a
+
+Para enviar uma branch para o nosso github utilizar o comando
+
+        git push --set-upstream origin login
+
