@@ -20,7 +20,7 @@ git checkout -b "nome_da_branch"
 
 
 Para deletar uma brach(não é muito comum de se fazer)
-git branch -d nome_da_branch
+git branch -D nome_da_branch
 
         ex: git branch -D page_contato
 
@@ -68,5 +68,5 @@ Para buscar uma Branch utilizar o comando git fetch
 
 Para enviar uma branch para o nosso github utilizar o comando
 
-        git push --set-upstream origin login
+        git push --set-upstream origin nome_branch
 
